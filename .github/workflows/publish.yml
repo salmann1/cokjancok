@@ -14,6 +14,6 @@ name: node
               registry-url: https://registry.npmjs.org/
 name: publish
         run: npm publish --access public
-        working-directory: my-package
+        working-directory: cokjancok
         env:
             NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
